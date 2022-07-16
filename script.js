@@ -30,9 +30,22 @@ function getLargetsNumber(num1, num2, num3) {
     getLargetsNumber(3,7,4);
     getLargetsNumber(2,3,12);
 
+
     let nameArry = [];
     function getLastName(nameArry) {   
         console.log(nameArry.slice(-1))
     }
 
     getLastName(["Isaac", "Alex", "Brooke"]);
+
+
+    let numArry = [];
+    function allNumbsPositive (numArry) {
+        if (numArry > 0) {
+            console.log(true)
+        } else {
+            console.log(false)
+        }
+    }
+
+    allNumbsPositive(-1, -4, -5);
